@@ -14,7 +14,8 @@
     "start": "start-storybook -p 6006",
     "build": "build-storybook",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=2bf4d4ee9e9e"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +42,7 @@
     "@storybook/addon-links": "^6.4.17",
     "@storybook/react": "^6.4.17",
     "babel-loader": "^8.2.3",
+    "chromatic": "^6.4.3",
     "typescript": "^4.5.5"
   }
 }
